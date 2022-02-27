@@ -162,6 +162,18 @@ p {
 	width: 50%;
 }
 
+/*burger*/
+.burger {
+		display: none;
+	}
+
+	.burger div {
+		width: 25px;
+		height: 3px;
+		background-color: #242E3A;
+		margin: 5px;
+}
+
 /*Media Query*/
 
 @media (max-width: 1750px) {
@@ -188,4 +200,53 @@ p {
 		text-align: center;
 		transform: translateY(40px);
 	}
+}
+
+@media (max-width:  768px) {
+	
+	.video {
+		padding: 0px;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.navli { 
+		background-color: #242E3A;
+		position: fixed;
+		right: 0;
+		height: 92vh;
+		width: 60%;
+		top: 9vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		transform: translateX(100%);
+		transition: 0.5s;
+		z-index: -1;
+
+		
+	}
+
+	.burger {
+		display: block;
+		cursor: pointer
+	}
+
+	.navli li a {
+		font-size: 25px;
+		color: white;
+	}
+
+	.navaktif {
+		transform: translateX(0);
+		transition: 0.5s;
+	}
+
+	.content {
+		transform: translateY(100px);
+	}
+
 }

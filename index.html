@@ -24,6 +24,12 @@
 				<li><a href="">Partnership</a></li>
 				<li><a href=""><button>Contact</button></a></li>
 			</ul>
+
+			<div class="burger">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
 		</div>
 
 	</div>
@@ -44,6 +50,21 @@
 		</div>
 
 	</div>
+
+<script>
+	
+	const navSlide = () => {
+		const burger = document.querySelector('.burger');
+		const nav = document.querySelector('.navli');
+
+		burger.addEventListener('click',()=> {
+			nav.classList.toggle('navaktif');
+		});
+	}
+
+	navSlide();
+
+</script>
 
 </body>
 </html>
