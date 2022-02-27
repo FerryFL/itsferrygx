@@ -98,7 +98,7 @@ p {
 	margin: auto;
 	padding: 10px 3%;
 	position: fixed;
-	z-index: 2;
+	z-index: 4;
 	background-color: white;
 
 }
@@ -212,16 +212,16 @@ p {
 		background-color: #242E3A;
 		position: fixed;
 		right: 0;
-		height: 92vh;
-		width: 60%;
-		top: 7vh;
+		height: 88vh;
+		width: 55%;
+		top: 13vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
 		transform: translateX(100%);
 		transition: 0.5s;
-		z-index: -1;
+		
 	}
 
 	.main {
@@ -243,7 +243,7 @@ p {
 	}
 
 	h1 {
-	font-size: 40px;
+	font-size: 35px;
 	font-family: 'Roboto Slab', serif;
 	}
 
