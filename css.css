@@ -17,7 +17,7 @@ body {
 /*Text*/
 
 h1 {
-	font-size: 55px;
+	font-size: 50px;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -27,7 +27,7 @@ p {
 }
 
 .abu {
-	font-size: 20px;
+	font-size: 18px;
 	color: #878a8f;
 }
 
@@ -39,7 +39,7 @@ p {
 }
 
 .img-logo {
-	width: 60px;
+	width: 50px;
 	border-radius: 50%;
 }
 
@@ -61,7 +61,7 @@ p {
 
 .logo-box p {
 	margin-left: 6px;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
 
 	font-family: 'Archivo', sans-serif;
@@ -224,6 +224,14 @@ p {
 		z-index: -1;
 	}
 
+	.main {
+		transform: translateY(165px);
+	}
+
+	.main-left {
+		width: 100%;
+	}
+
 	.burger {
 		display: block;
 		cursor: pointer
@@ -233,6 +241,12 @@ p {
 		font-size: 25px;
 		color: white;
 	}
+
+	h1 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	}
+
 
 	.navaktif {
 		transform: translateX(0);
