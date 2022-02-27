@@ -26,7 +26,7 @@ h1 {
 }
 
 .img-logo {
-	width: 50px;
+	width: 60px;
 	border-radius: 50%;
 }
 
@@ -91,7 +91,7 @@ h1 {
 	align-items: center;
 	text-decoration: none;
 	color: #242E3A;
-	font-size: 20px;
+	font-size: 30px;
 
 }
 
@@ -111,7 +111,7 @@ h1 {
 }
 
 .main-left {
-	background-color: blueviolet;
+	/*background-color: blueviolet;*/
 	width: 50%;
 }
 
@@ -123,7 +123,7 @@ h1 {
 .main-right {
 	display: flex;
 	align-items: center;
-	background-color: pink;
+	/*background-color: pink;*/
 	width: 50%;
 }
 
