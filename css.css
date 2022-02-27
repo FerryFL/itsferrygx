@@ -100,7 +100,7 @@ h1 {
 /*Main*/
 
 .main {
-	background-color: yellow;
+	/*background-color: yellow;*/
 	width: 90%;
 	margin: auto;
 	padding: 10px;
@@ -116,7 +116,6 @@ h1 {
 }
 
 .welcome {
-	/*background-color: white;*/
 	width: 80%;
 	margin: auto;
 }
@@ -140,7 +139,7 @@ h1 {
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1400px) {
 	.main {
 		flex-direction: column-reverse;
 	}
@@ -152,5 +151,6 @@ h1 {
 	.main-left {
 		width: 90%;
 		text-align: center;
+		transform: translateY(40px);
 	}
 }
