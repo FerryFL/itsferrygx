@@ -14,7 +14,12 @@ body {
 /*Text*/
 
 h1 {
-	font-size: 50px;
+	font-size: 55px;
+	font-family: 'Roboto Slab', serif;
+}
+
+p {
+	font-size: 30px;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -40,6 +45,10 @@ h1 {
 	font-family: 'Roboto Slab', serif;
 }
 
+.navli li a:hover {
+	color: #5B7C9B;
+}
+
 /*Link*/
 
 .logo-box p {
@@ -52,6 +61,22 @@ h1 {
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+}
+
+.navli li a button{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+	padding: 3px;
+	cursor: pointer;
+	background-color: white;
+	border-radius: 10%;
+}
+
+.navli li a button:hover {
+	color: #5B7C9B;
 }
 
 /*Navbar*/
