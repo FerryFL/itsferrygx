@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&family=Roboto+Slab:wght@500;700;800&family=Roboto:wght@500&display=swap');
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -58,8 +61,10 @@ p {
 
 .logo-box p {
 	margin-left: 6px;
+	font-size: 25px;
 	font-weight: 700;
-	font-family: 'Roboto Slab', serif;
+
+	font-family: 'Archivo', sans-serif;
 }
 
 .navli li a {
@@ -121,7 +126,6 @@ p {
 	align-items: center;
 	text-decoration: none;
 	color: #242E3A;
-	font-size: 30px;
 
 }
 
@@ -136,6 +140,7 @@ p {
 	padding: 10px;
 	display: flex;
 	align-items: center;
+	text-align: center;
 	transform: translateY(230px);
 	font-family: 'Roboto Slab', serif;
 }
