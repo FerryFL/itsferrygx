@@ -23,6 +23,11 @@ p {
 	font-family: 'Roboto Slab', serif;
 }
 
+.abu {
+	font-size: 20px;
+	color: #878a8f;
+}
+
 /*Image*/
 
 .img-main {
@@ -170,11 +175,11 @@ p {
 	}
 
 	.main-right {
-		width: 80%;
+		width: 95%;
 	}
 
 	.main-left {
-		width: 90%;
+		width: 95%;
 		text-align: center;
 		transform: translateY(40px);
 	}
