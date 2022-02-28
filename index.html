@@ -7,12 +7,13 @@
 	<meta name="keywords" content="itsferrygx, mobile legends, content reposter, partnership, instagram">
 
 	<link rel="stylesheet" type="text/css" href="css.css">
+	
 
 	<title>ItsferryGx</title>
 </head>
 <body>
 
-	<div class="navbar">
+	<nav class="navbar">
 		
 		<div class="navbar-left">
 
@@ -23,22 +24,23 @@
 
 		</div>
 
-		<div class="navbar-right">
-			<ul class="navli">
-				<li><a href="">Home</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Partnership</a></li>
-				<li><a href=""><button>Contact</button></a></li>
-			</ul>
+		<div class="toggle-button">
+			
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
 
-			<div class="burger">
-				<div></div>
-				<div></div>
-				<div></div>
-			</div>
 		</div>
 
-	</div>
+		<div class="navbar-right">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Partnership</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
 
 	<div class="main">
@@ -56,21 +58,6 @@
 		</div>
 
 	</div>
-
-<script>
-	
-	const navSlide = () => {
-		const burger = document.querySelector('.burger');
-		const nav = document.querySelector('.navli');
-
-		burger.addEventListener('click',()=> {
-			nav.classList.toggle('navaktif');
-		});
-	}
-
-	navSlide();
-
-</script>
-
+<script src="js.js"></script>
 </body>
 </html>
