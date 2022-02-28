@@ -16,7 +16,7 @@ body {
 
 .kosong {
 	width: 100%;
-	height: 100px;
+	height: 250px;
 }
 
 /*Text*/
@@ -157,7 +157,7 @@ p {
 	display: flex;
 	align-items: center;
 	text-align: center;
-	transform: translateY(230px);
+	/*transform: translateY(230px);*/
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -208,7 +208,7 @@ p {
 	align-items: center;
 	margin: auto;
 	padding: 10px;
-	transform: translateY(280px);
+/*	transform: translateY(280px);*/
 }
 
 .about-left {
@@ -247,7 +247,7 @@ p {
 	.main-left {
 		width: 95%;
 		text-align: center;
-		transform: translateY(40px);
+		/*transform: translateY(40px);*/
 	}
 
 	.about {
@@ -267,7 +267,7 @@ p {
 @media (max-width: 1000px) {
 	
 	.main {
-		transform: translateY(170px);
+		/*transform: translateY(170px);*/
 	}
 
 	.main-left {
@@ -317,7 +317,7 @@ p {
 	}
 
 	.about {
-		transform: translateY(140px);
+		/*transform: translateY(140px);*/
 	}
 
 
