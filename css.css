@@ -14,6 +14,11 @@ body {
 	height: 10000px;
 }
 
+.kosong {
+	width: 100%;
+	height: 100px;
+}
+
 /*Text*/
 
 h1 {
@@ -26,10 +31,22 @@ p {
 	font-family: 'Roboto Slab', serif;
 }
 
-.abu {
+.p-abu {
 	font-size: 18px;
 	color: #878a8f;
 }
+
+.p-white{
+	font-size: 18px;
+	color: white;
+}
+
+.p-black{
+	font-size: 18px;
+	color: black;
+}
+
+
 
 /*Image*/
 
@@ -41,6 +58,11 @@ p {
 .img-logo {
 	width: 50px;
 	border-radius: 50%;
+}
+
+.img-about {
+	width: 100%;
+	border-radius: 40px;
 }
 
 /*List*/
@@ -90,8 +112,7 @@ p {
 	align-items: center;
 	width: 100%;
 	height: 100px;
-	z-index: 1;
-	margin: auto;
+	z-index: 2;
 	padding: 10px 3%;
 	background-color: white;
 }
@@ -130,6 +151,7 @@ p {
 .main {
 	/*background-color: yellow;*/
 	width: 90%;
+	position: relative;
 	margin: auto;
 	padding: 10px;
 	display: flex;
@@ -177,6 +199,30 @@ p {
 	border-radius: 10px;
 }
 
+/*About*/
+
+.about {
+	width: 100%;
+	background-color: #242E3A;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	padding: 10px;
+	transform: translateY(280px);
+}
+
+.about-left {
+	
+	width: 40%;
+}
+
+.about-right {
+	
+	padding: 10px;
+	width: 60%;
+}
+
+
 /*Media Query*/
 
 @media (max-width: 1750px) {
@@ -202,6 +248,19 @@ p {
 		width: 95%;
 		text-align: center;
 		transform: translateY(40px);
+	}
+
+	.about {
+		flex-direction: column;
+	}
+
+	.about-left {
+		width: 70%;
+	}
+
+	.about-right {
+		margin-top: 10px;
+		width: 95%;
 	}
 }
 
@@ -255,6 +314,10 @@ p {
 
 	.navbar-right.active {
 		display: flex;
+	}
+
+	.about {
+		transform: translateY(140px);
 	}
 
 
