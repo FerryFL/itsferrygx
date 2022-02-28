@@ -10,13 +10,9 @@
 
 }
 
-body {
-	height: 10000px;
-}
-
 .kosong {
 	width: 100%;
-	height: 250px;
+	height: 220px;
 }
 
 /*Text*/
@@ -128,7 +124,6 @@ p {
 .navbar-right {
 	width: 60%;
 	display: flex;
-
 	align-items: center;
 	justify-content: flex-end;
 	background-color: white;
@@ -250,18 +245,6 @@ p {
 		/*transform: translateY(40px);*/
 	}
 
-	.about {
-		flex-direction: column;
-	}
-
-	.about-left {
-		width: 70%;
-	}
-
-	.about-right {
-		margin-top: 10px;
-		width: 95%;
-	}
 }
 
 @media (max-width: 1000px) {
@@ -290,6 +273,7 @@ p {
 		display: none;
 		width: 100%;
 		border-bottom: 2px solid black;
+		border-top: 2px solid black;
 
 	}
 	
@@ -317,8 +301,18 @@ p {
 	}
 
 	.about {
-		/*transform: translateY(140px);*/
+		flex-direction: column;
 	}
+
+	.about-left {
+		width: 70%;
+	}
+
+	.about-right {
+		margin-top: 10px;
+		width: 95%;
+	}
+
 
 
 }
