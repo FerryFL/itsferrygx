@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&family=Roboto+Slab:wght@500;700;800&family=Roboto:wght@500&display=swap');
 
 
+
 * {
 	margin: 0;
 	padding: 0;
@@ -29,6 +30,12 @@
 	height: 120px;
 }
 
+.kosong2 {
+	width: 100%;
+	height: 25px;
+}
+
+
 
 /*Text*/
 
@@ -40,6 +47,10 @@ h1 {
 p {
 	font-size: 30px;
 	font-family: 'Roboto Slab', serif;
+}
+
+.white {
+	color: white;
 }
 
 .p-abu {
@@ -61,6 +72,22 @@ p {
 	font-size: 18px;
 	color: black;
 }
+
+.a-white {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.kotakkontak {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
 
 .mid {
 	text-align: center;
@@ -84,7 +111,7 @@ p {
 	border-radius: 50%;
 }
 
-.img-about {
+.img-container {
 	width: 100%;
 	border-radius: 40px;
 }
@@ -123,7 +150,7 @@ p {
 }
 
 .navbar-right li a:hover {
-	color: #5B7C9B;
+	color: #A9A9A9;
 }
 
 
@@ -222,9 +249,9 @@ p {
 	border-radius: 10px;
 }
 
-/*About*/
+/*Container*/
 
-.about {
+.container {
 	width: 100%;
 	background-color: #242E3A;
 	display: flex;
@@ -234,12 +261,12 @@ p {
 /*	transform: translateY(280px);*/
 }
 
-.about-left {
+.container-left {
 	
 	width: 40%;
 }
 
-.about-right {
+.container-right {
 	
 	padding: 10px;
 	width: 60%;
@@ -250,7 +277,45 @@ p {
 footer {
 	text-align: center;
 	background-color:#242E3A;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	right: 0;
 
+}
+
+.fa-brands {
+	color: white;
+	font-size: 35px;
+}
+
+.fa-regular {
+	color: white;
+	font-size: 35px;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-logo {
+	padding: 10px 0;
+	width: 250px;
+	margin: auto;
+}
+
+.fa-brands:hover {
+	color: #A9A9A9;
+}
+
+.fa-regular:hover {
+	color: #A9A9A9;
+}
+
+.copy {
+	font-size: 17px;
+	color: white;
 }
 
 /*Media Query*/
@@ -262,6 +327,10 @@ footer {
 
 	.welcome{
 		width: 100%;
+	}
+
+	.kosong2 {
+		display: none;
 	}
 }
 
@@ -339,15 +408,15 @@ footer {
 		display: flex;
 	}
 
-	.about {
+	.container {
 		flex-direction: column;
 	}
 
-	.about-left {
+	.container-left {
 		width: 70%;
 	}
 
-	.about-right {
+	.container-right {
 		margin-top: 10px;
 		width: 95%;
 	}
