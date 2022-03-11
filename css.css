@@ -27,13 +27,20 @@
 
 .kosong1 {
 	width: 100%;
-	height: 120px;
+	height: 100px;
 }
 
 .kosong2 {
 	width: 100%;
 	height: 25px;
 }
+
+
+.kosong3 {
+	width: 100%;
+	height: 50px;
+}
+
 
 
 
@@ -70,7 +77,17 @@ p {
 
 .p-black{
 	font-size: 18px;
-	color: black;
+	color: #242E3A;
+
+}
+
+.a-black {
+	font-size: 20px;
+	color: #242E3A;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+
 }
 
 .a-white {
@@ -97,6 +114,15 @@ p {
 	text-align: justify;
 }
 
+/*Button*/
+
+button {
+	padding: 5px;
+	background-color: transparent;
+	border-radius: 10%;
+	display: block;
+	margin: auto;
+}
 
 
 /*Image*/
@@ -272,6 +298,17 @@ p {
 	width: 60%;
 }
 
+/*video*/
+
+.kotakvideo {
+	width: 25%;
+	margin: auto;
+}
+
+video {
+	width: 100%;
+}
+
 /*footer*/
 
 footer {
@@ -332,6 +369,11 @@ footer {
 	.kosong2 {
 		display: none;
 	}
+
+	.kotakvideo {
+	width: 30%;
+	margin: auto;
+	}
 }
 
 @media (max-width: 1400px) {
@@ -349,7 +391,25 @@ footer {
 		/*transform: translateY(40px);*/
 	}
 
+	.kotakvideo {
+	width: 25%;
+	margin: auto;
+	}
+
 }
+
+@media(max-width: 1200px){
+	.kotakvideo {
+	width: 30%;
+	}
+}
+
+@media(max-width: 1100px){
+	.kotakvideo {
+	width: 33%;
+	}
+}
+
 
 @media (max-width: 1000px) {
 	
@@ -421,6 +481,38 @@ footer {
 		width: 95%;
 	}
 
+	.kotakvideo {
+	width: 35%;
+	}
 
+}
 
+@media(max-width: 900px){
+	.kotakvideo {
+	width: 40%;
+	}
+}
+
+@media(max-width: 800px){
+	.kotakvideo {
+	width: 50%;
+	}
+}
+
+@media(max-width: 700px){
+	.kotakvideo {
+	width: 55%;
+	}
+}
+
+@media(max-width: 600px){
+	.kotakvideo {
+	width: 65%;
+	}
+}
+
+@media(max-width: 500px){
+	.kotakvideo {
+	width: 75%;
+	}
 }
