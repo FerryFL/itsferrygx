@@ -433,6 +433,11 @@ footer {
 	margin: auto;
 }
 
+.kotakketentuan {
+	width: 60%;
+	margin: auto;
+}
+
 
 /*Media Query*/
 
@@ -583,8 +588,12 @@ footer {
 	}
 
 	.komen {
-	width: 85%;
-}
+	width: 90%;
+	}
+
+	.kotakketentuan {
+		width: 90%;
+	}
 
 }
 
