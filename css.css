@@ -112,6 +112,10 @@ p {
 	color: #878a8f;
 }
 
+.a-none {
+	text-decoration: none;
+}
+
 .kotakkontak {
 	display: block;
 	margin: auto;
@@ -159,6 +163,8 @@ button {
 	width: 100%;
 	border-radius: 40px;
 }
+
+
 
 /*List*/
 
@@ -388,14 +394,19 @@ footer {
 	margin: auto;
 }
 
+.img-giveaway {
+	width: 100%;
+
+}
+
 .fa-duotone {
 	color: white;
-	width: 50px;
+	width: 20px;
 }
 
 .fa-solid {
 	color: white;
-	width: 50px;
+	width: 40px;
 }
 
 .kotakfol {
