@@ -11,24 +11,11 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-
-input:active {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-textarea:active {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-button:active {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-select:active {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-a:active {
+input,
+textarea,
+button,
+select,
+a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
